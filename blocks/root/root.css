@@ -1,4 +1,5 @@
 .root {
     background-color: #FFFFFF;
+    max-width: 1080px;
     color: var(--text-dark); /* Text default color: dark gray */
 }
