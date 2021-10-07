@@ -1,0 +1,12 @@
+.form__character-text {
+  color: var(--text-bright);
+  position: absolute;
+  text-decoration: none;
+  right:10px;
+  top: -12px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  opacity: .6;
+}

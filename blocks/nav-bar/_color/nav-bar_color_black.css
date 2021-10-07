@@ -1,0 +1,13 @@
+@import url(./__profile-pic/nav-bar__profile-pic.css);
+@import url(./__add-button/nav-bar__add-button.css);
+@import url(./__plus-sign/nav-bar__plus-sign.css);
+@import url(../../nav-bar/__logo/_color/nav-bar__logo_color_black.css);
+@import url(..);
+
+.nav-bar_color_black {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
