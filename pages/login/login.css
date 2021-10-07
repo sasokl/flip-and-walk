@@ -4,6 +4,8 @@
 
 @import url(../../blocks/login-page/login-page.css);
 @import url(../../blocks/login-page/__video-bg/login-page__video-bg.css);
+@import url(../../blocks/login-page/__subtitle/login-page__subtitle.css);
+@import url(../../blocks/login-page/__form/login-page__form.css);
 @import url(../../blocks/login-page/__resolution-wrapper/login-page__resolution-wrapper.css);
 @import url(../../blocks/login-page/__label-text/login-page__label-text.css);
 @import url(../../blocks/login-page/__label-link/login-page__label-link.css);
@@ -15,13 +17,14 @@
 @import url(../../blocks/logo/_size/logo_size_large.css);
 @import url(../../blocks/logo/_size/logo_size_small.css);
 
-@import url(../../blocks/signin/signin.css);
-@import url(../../blocks/signin/__form/signin__form.css);
-@import url(../../blocks/signin/__logo/signin__logo.css);
-@import url(../../blocks/signin/__subtitle/signin__subtitle.css);
-@import url(../../blocks/signin/__copyright/signin__copyright.css);
+@import url(../../blocks/sign/sign.css);
+@import url(../../blocks/sign/__logo/sign__logo.css);
 
-@import url(../../blocks/signup/signup.css);
+@import url(../../blocks/sign-content/sign-content.css);
+
+@import url(../../blocks/recovery/recovery.css);
+@import url(../../blocks/recovery/__subtitle/recovery__subtitle.css);
+@import url(../../blocks/recovery/__content/recovery__content.css);
 
 @import url(../../blocks/form/form.css);
 @import url(../../blocks/form/__input/form__input.css);
@@ -37,3 +40,9 @@
 @import url(../../blocks/form/__button/form__button.css);
 @import url(../../blocks/form/__button/_color/form__button_color_bright.css);
 @import url(../../blocks/form/__button/_color/form__button_color_dark.css);
+
+@import url(../../blocks/nav-bar/nav-bar.css);
+@import url(../../blocks/icon/icon.css);
+@import url(../../blocks/icon/_size/icon_size_large.css);
+
+

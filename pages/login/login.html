@@ -13,20 +13,41 @@
   <video class="login-page__video-bg" autoplay muted loop>
     <source src="../../videos/login_bg.webm" type="video/webm">
   </video>
-  <div class="login-page__resolution-wrapper"></div>
+  <div class="login-page__resolution-wrapper">
+    <p class="copyright">by fireducks</p>
+  </div>
 </div>
 <template id="login-template">
-  <div class="signin">
-    <div class="logo logo_size_large signin__logo"></div>
-    <h2 class="signin__subtitle">Don't let COVID stop you from traveling!</h2>
-    <form id="signin-form" action="#" class="form signin__form" novalidate>
+  <!--main screens-->
+  <div class="sign">
+    <div class="logo logo_size_large sign__logo"></div>
+    <h2 class="login-page__subtitle">Don't let COVID stop you from traveling!</h2>
+  </div>
+
+  <div class="recovery">
+    <nav class="nav-bar">
+      <img id="back-button" src="../../images/back-arrow-white.svg" alt="back button" class="icon icon_size_large">
+      <div class="logo logo_size_large"></div>
+    </nav>
+    <div class="recovery__content">
+      <h2 class="login-page__subtitle recovery__subtitle">Password recovery</h2>
+      <form id="recovery-form" action="#" class="form login-page__form" novalidate>
+        <input type="text" class="form__input form__input_color_bright" placeholder="Login or E-mail">
+        <button class="form__button form__button_color_bright" type="submit">Recover</button>
+      </form>
+    </div>
+  </div>
+
+  <!--sign content-->
+  <div id="signin" class="sign-content">
+    <form id="signin-form" action="#" class="form login-page__form" novalidate>
       <input type="text" class="form__input form__input_color_bright" placeholder="Login or E-mail">
       <div class="form__input-wrapper">
         <input type="text" class="form__input form__input_color_bright" placeholder="Password">
         <a class="form__forgot-text" href="#">Forgot?</a>
       </div>
-      <label for="#social-wrapper" class="form__social-label">or confirm with
-        <div id="#social-wrapper" class="form__social-wrapper">
+      <label for="#signin-social-wrapper" class="form__social-label">or confirm with
+        <div id="#signin-social-wrapper" class="form__social-wrapper">
           <button type="button" class="form__social-button">
             <img src="../../images/google-ico.svg" alt="google icon" class="form__social-icon">
             <span class="form__social-button-text">Google</span>
@@ -37,18 +58,36 @@
           </button>
         </div>
       </label>
-      <button id="signin-button" class="form__button form__button_color_bright" type="submit">Sign In</button>
-      <p class="login-page__label-text">Don’t have an account? <a id="signup-link"href="#" class="login-page__label-link">Sign up now!</a></p>
-      <p class="copyright signin__copyright">by fireducks</p>
+      <button class="form__button form__button_color_bright" type="submit">Sign In</button>
     </form>
+    <p class="login-page__label-text">
+      Don’t have an account?
+      <a id="signup-link" href="#" class="login-page__label-link">Sign up now!</a>
+    </p>
   </div>
-  <div class="signup">
-    Register
-    <button id="signup-button"></button>
-  </div>
-  <div class="recovery">
-    Recovery
-    <button id="recover-button"></button>
+  <div id="signup" class="sign-content">
+    <form id="signup-form" action="#" class="form login-page__form" novalidate>
+      <input type="text" class="form__input form__input_color_bright" placeholder="Login or E-mail">
+      <input type="text" class="form__input form__input_color_bright" placeholder="Password">
+      <input type="text" class="form__input form__input_color_bright" placeholder="Repeat password">
+      <label for="#signup-social-wrapper" class="form__social-label">or confirm with
+        <div id="#signup-social-wrapper" class="form__social-wrapper">
+          <button type="button" class="form__social-button">
+            <img src="../../images/google-ico.svg" alt="google icon" class="form__social-icon">
+            <span class="form__social-button-text">Google</span>
+          </button>
+          <button type="button" class="form__social-button">
+            <img src="../../images/facebook-ico.svg" alt="facebook icon" class="form__social-icon">
+            <span class="form__social-button-text">Facebook</span>
+          </button>
+        </div>
+      </label>
+      <button class="form__button form__button_color_bright" type="submit">Sign Up</button>
+    </form>
+    <p class="login-page__label-text">
+      Already have an account?
+      <a id="signin-link" href="#" class="login-page__label-link">Sign in now!</a>
+    </p>
   </div>
 </template>
 <script src="login.js"></script>
