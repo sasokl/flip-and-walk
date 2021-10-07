@@ -18,8 +18,7 @@ const signinLink = signUpNode.querySelector('#signin-link'); // the link that op
 const backButton = recoveryNode.querySelector('#back-button');
 
 
-//loginPage.append(signNode);
-loginPage.prepend(recoveryNode);
+loginPage.prepend(signNode);
 signNode.appendChild(signInNode);
 
 signInForm.addEventListener('submit', (e) => {
