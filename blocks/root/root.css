@@ -1,5 +1,5 @@
 .root {
-    font-family: 'Exo', Arial, sans-serif;
-    background-color: #FFFFFF;
-    color: var(--text-dark); /* Text default color: dark gray */
+  font-family: 'Exo', sans-serif;
+  background-color: #FFFFFF;
+  color: var(--text-dark); /* Text default color: dark gray */
 }

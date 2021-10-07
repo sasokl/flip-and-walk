@@ -2,9 +2,28 @@
 @import url(../../variables/variables.css);
 @import url(../../blocks/root/root.css);
 
+@import url(../../blocks/login-page/login-page.css);
+
 @import url(../../blocks/logo/logo.css);
 @import url(../../blocks/logo/_size/logo_size_large.css);
 @import url(../../blocks/logo/_size/logo_size_small.css);
 
-@import url(../../blocks/login-page/login-page.css);
 @import url(../../blocks/signin/signin.css);
+@import url(../../blocks/signin/__form/signin__form.css);
+@import url(../../blocks/signin/__logo/signin__logo.css);
+@import url(../../blocks/signin/__subtitle/signin__subtitle.css);
+
+@import url(../../blocks/form/form.css);
+@import url(../../blocks/form/__input/form__input.css);
+@import url(../../blocks/form/__input/_color/form__input_color_dark.css);
+@import url(../../blocks/form/__input/_color/form__input_color_bright.css);
+@import url(../../blocks/form/__input-wrapper/form__input-wrapper.css);
+@import url(../../blocks/form/__forgot-text/form__forgot-text.css);
+@import url(../../blocks/form/__social-label/form__social-label.css);
+@import url(../../blocks/form/__social-wrapper/form__social-wrapper.css);
+@import url(../../blocks/form/__social-button/form__social-button.css);
+@import url(../../blocks/form/__social-button-text/form__social-button-text.css);
+@import url(../../blocks/form/__social-icon/form__social-icon.css);
+@import url(../../blocks/form/__button/form__button.css);
+@import url(../../blocks/form/__button/_color/form__button_color_bright.css);
+@import url(../../blocks/form/__button/_color/form__button_color_dark.css);

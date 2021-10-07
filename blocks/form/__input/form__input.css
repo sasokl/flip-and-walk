@@ -1,0 +1,22 @@
+.form__input {
+  background-color: transparent;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid;
+  height: 27px;
+  margin: 30px 0 0;
+  width: 100%;
+  outline: none;
+}
+.form__input::placeholder {
+  font-family: 'Exo', Arial, sans-serif;
+}
+
+.form__input:focus::placeholder {
+  color: transparent;
+}
+
+.form__input:first-of-type {
+  margin: 0;
+}
+
