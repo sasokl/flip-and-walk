@@ -1,0 +1,12 @@
+.nav-bar__add-button {
+  border-radius: 100%;
+  background: #FABB06;
+  width: 33.30px;
+  height: 30px;
+  align-self: center;
+  border-color: transparent;
+}
+
+.nav-bar__add-button:hover {
+  cursor: pointer;
+}

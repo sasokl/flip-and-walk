@@ -1,0 +1,9 @@
+@import url(./__profile-pic/nav-bar__profile-pic.css);
+@import url(./__add-button/nav-bar__add-button.css);
+@import url(./__plus-sign/nav-bar__plus-sign.css);
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
