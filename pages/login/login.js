@@ -1,5 +1,5 @@
 
-const loginPage = document.querySelector('.login-page');
+const loginPage = document.querySelector('.login-page__resolution-wrapper');
 
 const loginTemplate = document.querySelector('#login-template').content;
 const signInNode = loginTemplate.querySelector('.signin').cloneNode(true);
@@ -8,7 +8,7 @@ const signInButton = signInNode.querySelector('#signin-button');
 const signUpNode = loginTemplate.querySelector('.signup').cloneNode(true);
 const signUpButton = signUpNode.querySelector('#signup-button');
 
-loginPage.prepend(signInNode);
+loginPage.append(signInNode);
 
 signInButton.addEventListener('click', () => {
     loginPage.replaceChild(signUpNode,signInNode);

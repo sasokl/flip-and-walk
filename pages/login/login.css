@@ -3,6 +3,8 @@
 @import url(../../blocks/root/root.css);
 
 @import url(../../blocks/login-page/login-page.css);
+@import url(../../blocks/login-page/__video-bg/login-page__video-bg.css);
+@import url(../../blocks/login-page/__resolution-wrapper/login-page__resolution-wrapper.css);
 
 @import url(../../blocks/logo/logo.css);
 @import url(../../blocks/logo/_size/logo_size_large.css);

@@ -1,0 +1,6 @@
+.login-page__resolution-wrapper {
+  max-width: 375px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

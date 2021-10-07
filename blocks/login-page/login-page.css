@@ -1,9 +1,5 @@
 .login-page {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../../images/loginBG.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  max-width: 375px;
+  background-color: #333333;
   min-height: 100vh;
   display: flex;
   justify-content: center;

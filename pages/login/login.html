@@ -9,34 +9,37 @@
 </head>
 <body class="root variables">
 <div class="login-page">
-
+  <video class="login-page__video-bg" autoplay muted loop>
+    <source src="../../videos/login_bg.webm" type="video/webm">
+  </video>
+  <div class="login-page__resolution-wrapper"></div>
 </div>
 <template id="login-template">
-  <div class="signin">
-    <div class="logo logo_size_large signin__logo"></div>
-    <h2 class="signin__subtitle">Don't let COVID stop you from traveling!</h2>
-    <form action="#" class="form signin__form" novalidate>
-      <input type="text" class="form__input form__input_color_bright" placeholder="Login or E-mail">
-      <div class="form__input-wrapper">
-        <input type="text" class="form__input form__input_color_bright" placeholder="Password">
-        <a class="form__forgot-text" href="#">Forgot?</a>
-      </div>
-      <label for="#social-wrapper" class="form__social-label">or confirm with
-        <div id="#social-wrapper" class="form__social-wrapper">
-          <button type="button" class="form__social-button">
-            <img src="../../images/google-ico.svg" alt="google icon" class="form__social-icon">
-            <span class="form__social-button-text">Google</span>
-          </button>
-          <button type="button" class="form__social-button">
-            <img src="../../images/facebook-ico.svg" alt="facebook icon" class="form__social-icon">
-            <span class="form__social-button-text">Facebook</span>
-          </button>
+    <div class="signin">
+      <div class="logo logo_size_large signin__logo"></div>
+      <h2 class="signin__subtitle">Don't let COVID stop you from traveling!</h2>
+      <form action="#" class="form signin__form" novalidate>
+        <input type="text" class="form__input form__input_color_bright" placeholder="Login or E-mail">
+        <div class="form__input-wrapper">
+          <input type="text" class="form__input form__input_color_bright" placeholder="Password">
+          <a class="form__forgot-text" href="#">Forgot?</a>
         </div>
-      </label>
-      <button class="form__button form__button_color_bright" type="submit">Sign In</button>
-      <p class="label-text label"></p>
-    </form>
-  </div>
+        <label for="#social-wrapper" class="form__social-label">or confirm with
+          <div id="#social-wrapper" class="form__social-wrapper">
+            <button type="button" class="form__social-button">
+              <img src="../../images/google-ico.svg" alt="google icon" class="form__social-icon">
+              <span class="form__social-button-text">Google</span>
+            </button>
+            <button type="button" class="form__social-button">
+              <img src="../../images/facebook-ico.svg" alt="facebook icon" class="form__social-icon">
+              <span class="form__social-button-text">Facebook</span>
+            </button>
+          </div>
+        </label>
+        <button class="form__button form__button_color_bright" type="submit">Sign In</button>
+        <p class="label-text label"></p>
+      </form>
+    </div>
   <div class="signup">
     Register
     <button id="signup-button"></button>
