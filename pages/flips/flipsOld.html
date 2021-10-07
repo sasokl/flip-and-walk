@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Qwigley&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../flips/flips.css">
+  <title>Flips</title>
+</head>
+
+<body class="root variables">
+<div class="flips-wrapper">
+  <video autoplay muted loop id="myVideo" class="flips-page">
+    <source src="../../videos/Flip1.mp4" type="video/mp4">
+  </video>
+  <nav class="nav-bar">
+    <div class="nav-bar__profile-pic"></div>
+    <div class="logo logo_size_large"></div>
+    <button class="nav-bar__add-button" id="add-button" aria-label="add-button">
+      <img src="../../images/plus.svg" alt="plus-sign" class="nav-bar__plus-sign_size_large">
+    </button>
+  </nav>
+  <div class="login-profile">
+    <div class="login-profile__avatar"></div>
+    <div class="login-profile__text">
+      <div class="login-profile__heading">
+        <h2 class="login-profile__text-header">Bear Grylls</h2>
+        <button class="login-profile__add-button" id="add-button-small" aria-label="add-button-small">
+          <img src="../../images/plus_sm.svg" alt="plus-sign-small" class="login-profile__plus-sign">
+        </button>
+      </div>
+      <h3 class="login-profile__text-description">Become happier</h3>
+    </div>
+  </div>
+  <div class="text">
+    <button id="hide-button"></button>
+    <h2 class="title-show"></h2>
+    <p class="text"></p>
+    <p class="hashtags"></p>
+  </div>
+  <div class="buttons">
+    <button id="like-button"></button>
+    <button id="comment-button"></button>
+    <button id="share-button"></button>
+  </div>
+</div>
+  <script src="flips.js"></script>
+</body>
+
+</html>
