@@ -1,0 +1,4 @@
+.form__button_color_bright {
+  background-color: var(--button-bright);
+  color: var(--text-dark);
+}

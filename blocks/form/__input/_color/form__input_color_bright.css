@@ -1,0 +1,8 @@
+.form__input_color_bright {
+  color: var(--text-bright);
+  border-color: var(--border-bright);
+}
+
+.form__input_color_bright::placeholder {
+  color: var(--placeholder-bright);
+}

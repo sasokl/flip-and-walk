@@ -1,0 +1,4 @@
+.form__input_color_dark {
+  color: var(--text-bright);
+  border-color: var(--border-bright);
+}
