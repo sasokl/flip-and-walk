@@ -1,0 +1,7 @@
+.login-profile__avatar {
+  background-image: url(../../../images/Avatar.svg);
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
