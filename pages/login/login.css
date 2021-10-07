@@ -5,6 +5,11 @@
 @import url(../../blocks/login-page/login-page.css);
 @import url(../../blocks/login-page/__video-bg/login-page__video-bg.css);
 @import url(../../blocks/login-page/__resolution-wrapper/login-page__resolution-wrapper.css);
+@import url(../../blocks/login-page/__label-text/login-page__label-text.css);
+@import url(../../blocks/login-page/__label-link/login-page__label-link.css);
+
+@import url(../../blocks/darkened/darkened.css);
+@import url(../../blocks/copyright/copyright.css);
 
 @import url(../../blocks/logo/logo.css);
 @import url(../../blocks/logo/_size/logo_size_large.css);
@@ -14,6 +19,9 @@
 @import url(../../blocks/signin/__form/signin__form.css);
 @import url(../../blocks/signin/__logo/signin__logo.css);
 @import url(../../blocks/signin/__subtitle/signin__subtitle.css);
+@import url(../../blocks/signin/__copyright/signin__copyright.css);
+
+@import url(../../blocks/signup/signup.css);
 
 @import url(../../blocks/form/form.css);
 @import url(../../blocks/form/__input/form__input.css);

@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Qwigley&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../login/login.css">
   <title>Flip and Walk</title>
 </head>
@@ -15,31 +16,32 @@
   <div class="login-page__resolution-wrapper"></div>
 </div>
 <template id="login-template">
-    <div class="signin">
-      <div class="logo logo_size_large signin__logo"></div>
-      <h2 class="signin__subtitle">Don't let COVID stop you from traveling!</h2>
-      <form action="#" class="form signin__form" novalidate>
-        <input type="text" class="form__input form__input_color_bright" placeholder="Login or E-mail">
-        <div class="form__input-wrapper">
-          <input type="text" class="form__input form__input_color_bright" placeholder="Password">
-          <a class="form__forgot-text" href="#">Forgot?</a>
+  <div class="signin">
+    <div class="logo logo_size_large signin__logo"></div>
+    <h2 class="signin__subtitle">Don't let COVID stop you from traveling!</h2>
+    <form id="signin-form" action="#" class="form signin__form" novalidate>
+      <input type="text" class="form__input form__input_color_bright" placeholder="Login or E-mail">
+      <div class="form__input-wrapper">
+        <input type="text" class="form__input form__input_color_bright" placeholder="Password">
+        <a class="form__forgot-text" href="#">Forgot?</a>
+      </div>
+      <label for="#social-wrapper" class="form__social-label">or confirm with
+        <div id="#social-wrapper" class="form__social-wrapper">
+          <button type="button" class="form__social-button">
+            <img src="../../images/google-ico.svg" alt="google icon" class="form__social-icon">
+            <span class="form__social-button-text">Google</span>
+          </button>
+          <button type="button" class="form__social-button">
+            <img src="../../images/facebook-ico.svg" alt="facebook icon" class="form__social-icon">
+            <span class="form__social-button-text">Facebook</span>
+          </button>
         </div>
-        <label for="#social-wrapper" class="form__social-label">or confirm with
-          <div id="#social-wrapper" class="form__social-wrapper">
-            <button type="button" class="form__social-button">
-              <img src="../../images/google-ico.svg" alt="google icon" class="form__social-icon">
-              <span class="form__social-button-text">Google</span>
-            </button>
-            <button type="button" class="form__social-button">
-              <img src="../../images/facebook-ico.svg" alt="facebook icon" class="form__social-icon">
-              <span class="form__social-button-text">Facebook</span>
-            </button>
-          </div>
-        </label>
-        <button class="form__button form__button_color_bright" type="submit">Sign In</button>
-        <p class="label-text label"></p>
-      </form>
-    </div>
+      </label>
+      <button id="signin-button" class="form__button form__button_color_bright" type="submit">Sign In</button>
+      <p class="login-page__label-text">Don’t have an account? <a id="signup-link"href="#" class="login-page__label-link">Sign up now!</a></p>
+      <p class="copyright signin__copyright">by fireducks</p>
+    </form>
+  </div>
   <div class="signup">
     Register
     <button id="signup-button"></button>

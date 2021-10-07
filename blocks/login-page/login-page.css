@@ -1,7 +1,20 @@
 .login-page {
   background-color: #333333;
   min-height: 100vh;
+  position: relative;
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 0 auto;
+}
+
+.login-page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.4);
+  z-index: 1;
 }

@@ -1,0 +1,11 @@
+.copyright {
+  font-family: 'Qwigley', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  opacity: .6;
+  color: var(--text-bright);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+}
