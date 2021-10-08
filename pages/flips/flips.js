@@ -7,6 +7,10 @@ let subscribed = false;
 let liked = false;
 
 flipsPage.append(flipNode);
+const videoBG = flipsPage.querySelector('#video-bg');
+videoBG.setAttribute('src', "../../videos/Flip2.svg");
+console.log(videoBG.src);
+const videoFlip = flipsPage.querySelector('#video-flip');
 
 const subscriptionButton = flipsPage.querySelector('#subscription-button');
 const likeButton = flipsPage.querySelector('#like-button');
@@ -17,6 +21,8 @@ flipsPage.addEventListener('click',() => {
 });
 
 flipsPage.addEventListener('swiped-up',(e)=>{
+    videoBG.src = "../../videos/Flip2.svg";
+    videoFlip.src = "../../videos/Flip2.svg";
 });
 
 subscriptionButton.addEventListener('click',(e)=>{
