@@ -7,9 +7,9 @@
 @import url(../../blocks/login-page/__resolution-wrapper/login-page__resolution-wrapper.css);
 @import url(../../blocks/darkened/darkened.css);
 @import url(../../blocks/copyright/copyright.css);
-@import url(../../blocks/logo/logo.css);
-@import url(../../blocks/logo/_size/logo_size_large.css);
-@import url(../../blocks/logo/_size/logo_size_small.css);
+@import url(../../blocks/logo-white/logo.css);
+@import url(../../blocks/logo-white/_size/logo_size_large.css);
+@import url(../../blocks/logo-white/_size/logo_size_small.css);
 @import url(../../blocks/sign/sign.css);
 @import url(../../blocks/sign/__logo/sign__logo.css);
 @import url(../../blocks/sign-content/sign-content.css);

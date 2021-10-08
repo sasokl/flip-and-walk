@@ -1,0 +1,7 @@
+.flip__back-logo {
+  visibility: visible;
+  opacity: 1;
+  position: absolute;
+  z-index: 3;
+  transition: all .3s ease-in-out;
+}

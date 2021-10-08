@@ -2,20 +2,47 @@
 @import url(../../variables/variables.css);
 @import url(../../blocks/root/root.css);
 
-@import url(../../blocks/logo/logo.css);
-@import url(../../blocks/logo/_size/logo_size_large.css);
-@import url(../../blocks/logo/_size/logo_size_small.css);
+@import url(../../blocks/logo-white/logo-white.css);
+@import url(../../blocks/logo-white/_size/logo-white_size_large.css);
+@import url(../../blocks/logo-white/_size/logo-white_size_small.css);
+
+@import url(../../blocks/icon/icon.css);
+@import url(../../blocks/icon/_button/icon_button.css);
+@import url(../../blocks/icon/_size/icon_size_large.css);
+@import url(../../blocks/icon/_size/icon_size_medium.css);
+@import url(../../blocks/icon/_size/icon_size_small.css);
+
+@import url(../../blocks/video-bg/video-bg.css);
+@import url(../../blocks/video-flip/video-flip.css);
+@import url(../../blocks/copyright/copyright.css);
 
 @import url(../../blocks/flips-page/flips-page.css);
+@import url(../../blocks/flips-page/__resolution-wrapper/flips-page__resolution-wrapper.css);
+
+@import url(../../blocks/flip/flip.css);
+@import url(../../blocks/flip/_visible/flip_visible.css);
+@import url(../../blocks/flip/__back-logo/flip__back-logo.css);
+@import url(../../blocks/flip/__back-logo/_hidden/flip__back-logo_hidden.css);
+@import url(../../blocks/flip/__top/flip__top.css);
+@import url(../../blocks/flip/__bot/flip__bot.css);
+@import url(../../blocks/flip/__info/flip__info.css);
+@import url(../../blocks/flip/__info-avatar/flip__info-avatar.css);
+@import url(../../blocks/flip/__content/flip__content.css);
+@import url(../../blocks/flip/__profile/flip__profile.css);
+@import url(../../blocks/flip/__name-container/flip__name-container.css);
+@import url(../../blocks/flip/__name/flip__name.css);
+@import url(../../blocks/flip/__caption/flip__caption.css);
+@import url(../../blocks/flip/__description/flip__description.css);
+@import url(../../blocks/flip/__link/flip__link.css);
+@import url(../../blocks/flip/__title/flip__title.css);
+@import url(../../blocks/flip/__text/flip__text.css);
 
 @import url(../../blocks/nav-bar/nav-bar.css);
+@import url(../../blocks/nav-bar/__left-button/nav-bar__left-button.css);
+@import url(../../blocks/nav-bar/__right-button/nav-bar__right-button.css);
+@import url(../../blocks/nav-bar/__logo/nav-bar__logo.css);
+@import url(../../blocks/nav-bar/__button-img/nav-bar__button-img.css);
 
-@import url(../../blocks/login-profile/login-profile.css);
-@import url(../../blocks/login-profile/__avatar/login-profile__avatar.css);
-@import url(../../blocks/login-profile/__text-description/login-profile__text-description.css);
-@import url(../../blocks/login-profile/__text-header/login-profile__text-header.css);
-@import url(../../blocks/login-profile/__text/login-profile__text.css);
-@import url(../../blocks/login-profile/__text/__add-button/login-profile__add-button.css);
-@import url(../../blocks/login-profile/__text/__plus-sign/login-profile__plus-sign.css);
-@import url(../../blocks/login-profile/__text/__heading/login-profile__heading.css);
-@import url(../../blocks/login-profile/__text-header/);
+@import url(../../blocks/nav-bot/nav-bot.css);
+@import url(../../blocks/nav-bot/__item/nav-bot__item.css);
+@import url(../../blocks/nav-bot/__item-text/nav-bot__item-text.css);

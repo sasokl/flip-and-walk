@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" type="text/css" href="../../blocks/nav-bot/__item/nav-bot__item.css"/>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,14 +11,87 @@
   <title>Flips</title>
 </head>
 
-<body>
+<body class="root variables">
 <div class="flips-page">
   <video class="video-bg" autoplay muted loop>
-    <source src="../../videos/login_bg.webm" type="video/webm">
+    <source src="../../videos/Flip1.webm" type="video/webm">
   </video>
-  <div class="login-page__resolution-wrapper">
-    <p class="copyright">by fireducks</p>
+  <div class="flips-page__resolution-wrapper">
+    <video class="video-flip" autoplay muted loop>
+      <source src="../../videos/Flip1.webm" type="video/webm">
+    </video>
+    <div class="logo-white logo-white_size_small nav-bar__logo flip__back-logo"></div>
   </div>
 </div>
+<template id="flips-template">
+  <div class="flip flip_visible">
+    <div class="flip__top">
+      <nav class="nav-bar">
+        <button class="icon_button icon_size_large nav-bar__left-button">
+          <img src="../../images/profile.svg" alt="back arrow" class="icon_size_large">
+        </button>
+        <div class="logo-white logo-white_size_small nav-bar__logo"></div>
+        <button class="icon_button icon_size_large nav-bar__right-button">
+          <img src="../../images/add_flip.svg" alt="" class="icon">
+        </button>
+      </nav>
+      <div class="flip__content">
+        <div class="flip__profile">
+          <img src="../../images/avatar.png" alt="avatar" class="flip__info-avatar">
+          <div class="flip__info">
+            <div class="flip__name-container">
+              <h1 class="flip__name">Bear Grylls</h1>
+              <button id="subscription-button" type="button" class="icon_button icon_size_small">
+                <img src="../../images/subscription.svg" alt="" class="icon">
+              </button>
+            </div>
+            <p class="flip__caption">Become hapier!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flip__bot">
+      <nav class="nav-bot">
+        <div class="nav-bot__item">
+          <button id="like-button" class="icon_button icon_size_large">
+            <img src="../../images/heart.svg" alt="heart icon" class="icon icon_size_large">
+          </button>
+          <p class="nav-bot__item-text">2.75k</p>
+        </div>
+        <div class="nav-bot__item">
+          <button class="icon_button icon_size_large">
+            <img src="../../images/comments.svg" alt="comments icon" class="icon icon_size_large">
+          </button>
+          <p class="nav-bot__item-text">418</p>
+        </div>
+        <div class="nav-bot__item">
+          <button class="icon_button icon_size_large">
+            <img src="../../images/share.svg" alt="share icon" class="icon icon_size_large">
+          </button>
+          <p class="nav-bot__item-text">728</p>
+        </div>
+        <div class="nav-bot__item">
+          <button class="icon_button icon_size_large">
+            <img src="../../images/review.svg" alt="review icon" class="icon icon_size_large">
+          </button>
+          <p class="nav-bot__item-text">review</p>
+        </div>
+      </nav>
+      <div class="flip__content">
+        <div class="flip__description">
+          <a href="#" class="flip__link">Hide titles</a>
+          <h2 class="flip__title">A wonderful walk</h2>
+          <p class="flip__text">
+            Enjoy the summer wind and the warm sun. Wonderful feelings and delight! I recommend it to everyone!
+            <br><br>
+            #sun #field #happy #love
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+<script src="../../vendor/swiped-events.js"></script>
+<script src="flips.js"></script>
 </body>
 </html>
